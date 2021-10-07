@@ -1,5 +1,6 @@
 .NavigationItem {
     margin: 0; 
+    padding: 0;
     box-sizing: border-box;
     display: flex; 
     height: 100%; 
@@ -11,8 +12,8 @@
     color: #8F5C2C; 
     text-decoration: none;
     height: 100%;
-    padding: 16px 10px;
-    border-bottom: 4px solid transparent;
+    padding: 0px 10px;
+    
     box-sizing: border-box;
     display: block; 
 }
@@ -26,7 +27,6 @@
 
 @media (min-width: 500px){
     .NavigationItem {
-        margin: 10px 0; 
         display: block; 
         width: 100%; 
         
@@ -35,8 +35,10 @@
     .NavigationItem a {
         color: #8f5c2c; 
         text-decoration: none;
+        text-align: center;
         height: 100%;
         display: block; 
+
     }
     
     .NavigationItem a:hover,
